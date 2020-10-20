@@ -1,0 +1,24 @@
+{
+    "name": "easy-admin/src",
+    "description": "easy-admin",
+    "homepage": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xiaobai",
+            "homepage": ""
+        }
+    ],
+    "require": {
+        "php":">=7.0"
+    },
+    "require-dev" : {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "~1.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"EasyAdmin\\": "easy-admin/src"}
+    }
+}
