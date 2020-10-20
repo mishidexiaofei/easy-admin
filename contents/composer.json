@@ -16,7 +16,7 @@
     },
     "autoload": {
     "psr-4": {
-      "User\\Client\\": "src/User/Client"
+      "User\\Client\\": "easy-admin/src"
     }
   }
 }
